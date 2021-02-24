@@ -19,7 +19,7 @@ For each bone a weigh map (PNG image) is exported that can be imported into blen
 
 ## How to use
 
-The bones need to be defined in source code. Check the comments in Program.cs on how to do that.
+The bones need to be defined in source code. Check the comments in Program.cs (https://github.com/Neop/WingVertexWeights/blob/main/BatWings/Program.cs) on how to do that.
 Remove / comment the SmoothEdge() calls at first. Then check for lines to be smoothed. Use an image manipulation program to find the pixel coordinates where the edges meet the edge of the image and enter those into the SmoothEdge() calls.
 
 Importing the weights into Blender is a little tricky, as far as I know there's no direct way to import images into vertex weights (if there is, please tell me! xD).
